@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+//Requirements 
+1. Create a React application.
+2. Fetch all the pokemons as a 4 in a column 5 row with pagenation allowed. From the Following api https://pokeapi.co/api/v2/pokemon (reference: https://pokeapi.co/docs/v2#named) fetching initially 20.
+3.  Fetching individual data from which available in the url of pokemon list endpoint (reference: https://pokeapi.co/docs/v2#pokemon-section) and show images of it from sprites images front_default.
+4. If we click on it we have to go to that pokemon data in which we have to show all images of it available in it and like height weight, fetch abilities and display them. 
+5. All this data has to stored in the context. we shouldn't go to refetch those details again once they visit the same page. (Hint: useReducer and useContext together will be best) make it as a global or shared or separate component.
+6. Routes has to go contain name. If we refresh in that page should need to fetch the details from the route and display the details.
+
+//Steps to execute: There are simple steps need to be followed to execute the application
+--> Download zip folder and Unzip the folder (or) Extract all the files
+--> After setting up the path run the following commands in the command prompt to install necessary libraries and setup the environment:
+    npm install (or) npm i
+    npm install react-router-dom
+    npm start
+--> Then click y(Yes) to display the user interface
